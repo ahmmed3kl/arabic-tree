@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/introscene.tsx","./src/components/museumheader.tsx","./src/components/referencesdrawer.tsx","./src/components/rootdiscoveryscene.tsx","./src/components/treescene.tsx","./src/data/wordsdata.ts","./src/types/morphology.ts"],"version":"5.6.3"}

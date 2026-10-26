@@ -1,0 +1,2110 @@
+/* ==========================================================================
+   متحف الضاد — شجرة الجذور
+   تعريفات خط ثمانية الأصلي (Thmanyah Typeface System - WOFF2)
+   ========================================================================== */
+
+/* 1. عائلة Thmanyah (الاسم العام) */
+@font-face {
+  font-family: 'Thmanyah';
+  src: url('/fonts/ThmanyahSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah';
+  src: url('/fonts/ThmanyahSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah';
+  src: url('/fonts/ThmanyahSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah';
+  src: url('/fonts/ThmanyahSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah';
+  src: url('/fonts/ThmanyahSans-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. عائلة Thmanyah Sans (خط ثمانية الرقمي للواجهات) */
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('/fonts/ThmanyahSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('/fonts/ThmanyahSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('/fonts/ThmanyahSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('/fonts/ThmanyahSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Sans';
+  src: url('/fonts/ThmanyahSans-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 3. عائلة Thmanyah Serif Display (خط ثمانية للعناوين المتحفية والجذور) */
+@font-face {
+  font-family: 'Thmanyah Serif Display';
+  src: url('/fonts/ThmanyahSerifDisplay-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Display';
+  src: url('/fonts/ThmanyahSerifDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Display';
+  src: url('/fonts/ThmanyahSerifDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Display';
+  src: url('/fonts/ThmanyahSerifDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Display';
+  src: url('/fonts/ThmanyahSerifDisplay-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 4. عائلة Thmanyah Serif Text (خط ثمانية للنصوص والشروح المعجمية) */
+@font-face {
+  font-family: 'Thmanyah Serif Text';
+  src: url('/fonts/ThmanyahSerifText-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Text';
+  src: url('/fonts/ThmanyahSerifText-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Text';
+  src: url('/fonts/ThmanyahSerifText-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Text';
+  src: url('/fonts/ThmanyahSerifText-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thmanyah Serif Text';
+  src: url('/fonts/ThmanyahSerifText-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   نظام الألوان والمتغيرات البصرية (اللوحة المعتمدة)
+   ========================================================================== */
+:root {
+  --color-forest-deep: #173D32;
+  --color-emerald-dark: #214F40;
+  --color-ivory-warm: #F7F1E5;
+  --color-parchment-aged: #E9D9B8;
+  --color-gold-antique: #B99A5B;
+  --color-ink-deep: #292820;
+  --color-botanical-muted: #8B9B76;
+
+  /* درجات مساندة مشتقة من اللوحة نفسها للظلال والحدود */
+  --color-forest-abyss: #0E261F;
+  --color-ink-muted: #4A473B;
+  --color-gold-border: rgba(185, 154, 91, 0.36);
+  --color-gold-subtle: rgba(185, 154, 91, 0.16);
+  --color-ivory-translucent: rgba(247, 241, 229, 0.88);
+
+  /* عائلات خط ثمانية */
+  --font-ui: 'Thmanyah', 'Thmanyah Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Thmanyah Serif Display', 'Thmanyah', serif;
+  --font-editorial: 'Thmanyah Serif Text', 'Thmanyah', serif;
+
+  --max-width-museum: 1260px;
+  --transition-calm: 360ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ==========================================================================
+   إعدادات الوثيقة والاتجاه العربي (RTL)
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  direction: rtl;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-forest-deep);
+  background-image:
+    radial-gradient(circle at 80% 12%, rgba(33, 79, 64, 0.65) 0%, transparent 52%),
+    radial-gradient(circle at 18% 85%, rgba(185, 154, 91, 0.08) 0%, transparent 45%);
+  color: var(--color-ivory-warm);
+  font-family: var(--font-ui);
+  line-height: 1.75;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* حالات التركيز الواضحة للوصول عبر لوحة المفاتيح */
+:focus-visible {
+  outline: 2.5px solid var(--color-gold-antique);
+  outline-offset: 3px;
+}
+
+.museum-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.museum-main {
+  flex: 1;
+  width: 100%;
+}
+
+/* ==========================================================================
+   الترويسة المتحفية (Museum Header)
+   ========================================================================== */
+.museum-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background-color: rgba(23, 61, 50, 0.94);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-gold-border);
+}
+
+.museum-header__inner {
+  max-width: var(--max-width-museum);
+  margin: 0 auto;
+  padding: 0.85rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.museum-header__crest-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: right;
+  padding: 0.25rem 0.4rem;
+  border-radius: 8px;
+  transition: opacity var(--transition-calm);
+}
+
+.museum-header__crest-btn:hover {
+  opacity: 0.9;
+}
+
+.museum-header__star-icon {
+  width: 34px;
+  height: 34px;
+  color: var(--color-gold-antique);
+  flex-shrink: 0;
+}
+
+.museum-header__titles {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.museum-header__subtitle {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--color-parchment-aged);
+  letter-spacing: 0.01em;
+}
+
+.museum-header__title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-ivory-warm);
+}
+
+/* شريط مراحل المعرض */
+.museum-header__stages {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(14, 38, 31, 0.55);
+  border: 1px solid rgba(185, 154, 91, 0.25);
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+}
+
+.stage-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--color-parchment-aged);
+  opacity: 0.75;
+  transition: all var(--transition-calm);
+}
+
+.stage-pill:not(.stage-pill--static):hover {
+  opacity: 1;
+  background-color: rgba(185, 154, 91, 0.14);
+}
+
+.stage-pill--active {
+  opacity: 1;
+  background-color: var(--color-gold-antique);
+  color: var(--color-ink-deep);
+  font-weight: 700;
+}
+
+.stage-pill__num {
+  font-size: 0.78rem;
+  width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(23, 61, 50, 0.22);
+}
+
+.stage-divider {
+  width: 16px;
+  height: 1px;
+  background-color: rgba(185, 154, 91, 0.35);
+}
+
+.museum-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.discovery-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  background-color: rgba(33, 79, 64, 0.65);
+  border: 1px solid rgba(139, 155, 118, 0.35);
+  font-size: 0.84rem;
+}
+
+.discovery-counter__label {
+  color: var(--color-parchment-aged);
+}
+
+.discovery-counter__value {
+  font-weight: 700;
+  color: var(--color-gold-antique);
+}
+
+.museum-header__ref-btn {
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  border: 1px solid var(--color-gold-border);
+  background-color: rgba(247, 241, 229, 0.06);
+  color: var(--color-ivory-warm);
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all var(--transition-calm);
+}
+
+.museum-header__ref-btn:hover {
+  background-color: rgba(185, 154, 91, 0.18);
+  border-color: var(--color-gold-antique);
+}
+
+.museum-header__back-tree-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.42rem 0.9rem;
+  border-radius: 6px;
+  background-color: var(--color-gold-antique);
+  color: var(--color-ink-deep);
+  font-size: 0.86rem;
+  font-weight: 700;
+  transition: transform var(--transition-calm), background-color var(--transition-calm);
+}
+
+.museum-header__back-tree-btn:hover {
+  background-color: var(--color-parchment-aged);
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   المشهد أ: فاتحة المعرض (Scene A: IntroScene)
+   ========================================================================== */
+.intro-scene {
+  position: relative;
+  min-height: calc(100vh - 76px);
+  display: flex;
+  align-items: center;
+  padding: 3.5rem 1.5rem 4rem;
+  overflow: hidden;
+  animation: museumFadeIn 650ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.intro-scene__backdrop {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+}
+
+.intro-scene__botanical-silhouette {
+  width: 100%;
+  max-width: 1040px;
+  height: 100%;
+  max-height: 860px;
+}
+
+.intro-scene__container {
+  position: relative;
+  z-index: 2;
+  max-width: var(--max-width-museum);
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.25fr 0.9fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.intro-scene__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.intro-scene__identity-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 1rem;
+  background-color: rgba(33, 79, 64, 0.72);
+  border: 1px solid var(--color-gold-border);
+  border-radius: 4px;
+  font-size: 0.92rem;
+}
+
+.intro-scene__ornament-dot {
+  width: 7px;
+  height: 7px;
+  background-color: var(--color-gold-antique);
+  transform: rotate(45deg);
+}
+
+.intro-scene__museum-label {
+  font-weight: 700;
+  color: var(--color-gold-antique);
+}
+
+.intro-scene__ornament-sep {
+  color: rgba(233, 217, 184, 0.4);
+}
+
+.intro-scene__hall-label {
+  color: var(--color-parchment-aged);
+}
+
+.intro-scene__heading {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 5.4vw, 4.6rem);
+  font-weight: 700;
+  line-height: 1.18;
+  color: var(--color-ivory-warm);
+  text-shadow: 0 4px 24px rgba(9, 25, 20, 0.45);
+}
+
+.intro-scene__lead {
+  font-family: var(--font-editorial);
+  font-size: clamp(1.12rem, 1.8vw, 1.34rem);
+  line-height: 1.95;
+  color: var(--color-parchment-aged);
+  max-width: 58ch;
+}
+
+.intro-scene__cta-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.btn-primary-museum {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.95rem 2.1rem;
+  background-color: var(--color-gold-antique);
+  color: var(--color-ink-deep);
+  font-family: var(--font-ui);
+  font-size: 1.12rem;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 1px solid var(--color-ivory-warm);
+  box-shadow: 0 10px 28px rgba(9, 25, 20, 0.4);
+  transition: transform var(--transition-calm), background-color var(--transition-calm),
+    box-shadow var(--transition-calm);
+}
+
+.btn-primary-museum:hover {
+  background-color: var(--color-ivory-warm);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(9, 25, 20, 0.52);
+}
+
+.btn-primary-museum__icon {
+  transition: transform var(--transition-calm);
+}
+
+.btn-primary-museum:hover .btn-primary-museum__icon {
+  transform: translateX(-4px);
+}
+
+.intro-scene__meta-note {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--color-botanical-muted);
+}
+
+/* البطاقة الاستشهادية في مشهد المدخل */
+.intro-scene__specimen-card {
+  position: relative;
+  background-color: var(--color-ivory-warm);
+  color: var(--color-ink-deep);
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-gold-antique);
+  box-shadow: 0 20px 50px rgba(9, 25, 20, 0.48);
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+
+.specimen-card__corner {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-color: var(--color-gold-antique);
+  border-style: solid;
+  pointer-events: none;
+}
+.specimen-card__corner--tr {
+  top: 8px;
+  right: 8px;
+  border-width: 2px 2px 0 0;
+}
+.specimen-card__corner--tl {
+  top: 8px;
+  left: 8px;
+  border-width: 2px 0 0 2px;
+}
+.specimen-card__corner--br {
+  bottom: 8px;
+  right: 8px;
+  border-width: 0 2px 2px 0;
+}
+.specimen-card__corner--bl {
+  bottom: 8px;
+  left: 8px;
+  border-width: 0 0 2px 2px;
+}
+
+.specimen-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgba(41, 40, 32, 0.12);
+  padding-bottom: 0.75rem;
+}
+
+.specimen-card__kicker {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+}
+
+.specimen-card__badge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  background-color: var(--color-parchment-aged);
+  color: var(--color-ink-deep);
+}
+
+.specimen-card__visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: rgba(233, 217, 184, 0.42);
+  border: 1px solid rgba(185, 154, 91, 0.38);
+  border-radius: 6px;
+}
+
+.specimen-card__leaf-node,
+.specimen-card__root-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.specimen-card__node-caption {
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+}
+
+.specimen-card__word {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-forest-deep);
+}
+
+.specimen-card__stem-connector {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.specimen-card__stem-line {
+  height: 1px;
+  width: 36px;
+  background-color: var(--color-gold-antique);
+}
+
+.specimen-card__stem-note {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+  background-color: var(--color-ivory-warm);
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-gold-antique);
+}
+
+.specimen-card__root {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--color-ink-deep);
+}
+
+.specimen-card__excerpt {
+  font-family: var(--font-editorial);
+  font-size: 0.96rem;
+  line-height: 1.75;
+  color: var(--color-ink-deep);
+  border-right: 3px solid var(--color-gold-antique);
+  padding-right: 0.85rem;
+}
+
+.specimen-card__cite {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  margin-top: 0.25rem;
+}
+
+.specimen-card__try-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+  font-size: 0.92rem;
+  font-weight: 700;
+  transition: background-color var(--transition-calm);
+}
+
+.specimen-card__try-btn:hover {
+  background-color: var(--color-emerald-dark);
+}
+
+/* ==========================================================================
+   المشهد ب: الشجرة التفاعلية (Scene B: TreeScene)
+   ========================================================================== */
+.tree-scene {
+  max-width: var(--max-width-museum);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  animation: museumFadeIn 500ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 460ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 460ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* انتقال الغوص نحو الجذور عند اختيار ورقة */
+.tree-scene--transitioning {
+  transform: translateY(-28px) scale(1.02);
+  opacity: 0.88;
+}
+
+.tree-scene__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tree-scene__kicker {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-gold-antique);
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.tree-scene__heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.85rem, 3vw, 2.55rem);
+  font-weight: 700;
+  color: var(--color-ivory-warm);
+}
+
+.tree-scene__instruction {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 6px;
+  background-color: var(--color-ivory-warm);
+  color: var(--color-ink-deep);
+  border: 1px solid var(--color-gold-antique);
+  font-size: 0.96rem;
+  font-weight: 700;
+  box-shadow: 0 6px 20px rgba(9, 25, 20, 0.28);
+}
+
+.tree-scene__instruction-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--color-emerald-dark);
+  box-shadow: 0 0 0 3px rgba(33, 79, 64, 0.2);
+}
+
+.tree-scene__stage-wrapper {
+  width: 100%;
+}
+
+.tree-scene__canvas-frame {
+  position: relative;
+  background-color: var(--color-emerald-dark);
+  background-image: radial-gradient(
+    circle at 50% 35%,
+    rgba(23, 61, 50, 0.35) 0%,
+    rgba(14, 38, 31, 0.92) 100%
+  );
+  border: 1px solid var(--color-gold-border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 22px 55px rgba(9, 25, 20, 0.5);
+}
+
+.botanical-tree-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 680px;
+}
+
+.tree-leaf-node {
+  cursor: pointer;
+  transition: transform 240ms ease, filter 240ms ease;
+}
+
+.tree-leaf-node:focus {
+  outline: none;
+}
+
+.tree-leaf-node:focus-visible .tree-leaf-node__blade {
+  stroke: var(--color-ivory-warm);
+  stroke-width: 3.2px;
+}
+
+.tree-leaf-node__blade {
+  transition: transform 240ms ease, stroke-width 200ms ease;
+}
+
+.tree-leaf-node:hover .tree-leaf-node__blade,
+.tree-leaf-node--selected .tree-leaf-node__blade {
+  transform: scale(1.06);
+}
+
+.tree-leaf-node__label {
+  pointer-events: none;
+  user-select: none;
+}
+
+.branch-highlight-path,
+.trunk-sap-line {
+  transition: stroke-opacity 240ms ease, stroke-width 240ms ease;
+}
+
+/* شريط المعاينة الحي أسفل الشجرة */
+.tree-scene__live-bar {
+  background-color: rgba(14, 38, 31, 0.95);
+  border-top: 1px solid var(--color-gold-border);
+  padding: 0.85rem 1.4rem;
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-scene__live-preview {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tree-scene__live-tag {
+  font-size: 0.88rem;
+  color: var(--color-parchment-aged);
+}
+
+.tree-scene__live-word {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--color-ivory-warm);
+}
+
+.tree-scene__live-arrow {
+  color: var(--color-gold-antique);
+  font-weight: 700;
+}
+
+.tree-scene__live-root {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--color-gold-antique);
+  background-color: rgba(185, 154, 91, 0.14);
+  padding: 0.1rem 0.7rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-gold-border);
+}
+
+.tree-scene__live-badge {
+  font-size: 0.82rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background-color: var(--color-ivory-warm);
+  color: var(--color-ink-deep);
+  font-weight: 700;
+}
+
+.tree-scene__live-placeholder {
+  font-size: 0.92rem;
+  color: var(--color-parchment-aged);
+  text-align: center;
+}
+
+/* فهرس الأغصان التفاعلي المساند للجوال والوصول السريع */
+.tree-mobile-directory {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.tree-mobile-directory__intro {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tree-mobile-directory__title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--color-ivory-warm);
+}
+
+.tree-mobile-directory__subtitle {
+  font-size: 0.92rem;
+  color: var(--color-parchment-aged);
+}
+
+.tree-mobile-directory__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.branch-group-card {
+  background-color: rgba(33, 79, 64, 0.55);
+  border: 1px solid var(--color-gold-border);
+  border-radius: 10px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.branch-group-card__header {
+  border-bottom: 1px solid rgba(185, 154, 91, 0.22);
+  padding-bottom: 0.65rem;
+}
+
+.branch-group-card__title {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  color: var(--color-gold-antique);
+}
+
+.branch-group-card__desc {
+  font-size: 0.85rem;
+  color: var(--color-parchment-aged);
+}
+
+.branch-group-card__leaves {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.65rem;
+}
+
+.mobile-leaf-btn {
+  background-color: var(--color-ivory-warm);
+  color: var(--color-ink-deep);
+  border: 1px solid var(--color-gold-antique);
+  border-radius: 8px;
+  padding: 0.75rem 0.95rem;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  transition: transform var(--transition-calm), background-color var(--transition-calm);
+}
+
+.mobile-leaf-btn:hover {
+  background-color: var(--color-parchment-aged);
+  transform: translateY(-2px);
+}
+
+.mobile-leaf-btn--discovered {
+  border-right: 4px solid var(--color-emerald-dark);
+}
+
+.mobile-leaf-btn__word {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-forest-deep);
+}
+
+.mobile-leaf-btn__phenomenon {
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+}
+
+.mobile-leaf-btn__action {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+  margin-top: 0.15rem;
+}
+
+/* ==========================================================================
+   المشهد ج: اكتشاف الجذر اللغوي (Scene C: RootDiscoveryScene)
+   ========================================================================== */
+.root-discovery-scene {
+  max-width: var(--max-width-museum);
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  animation: rootSceneReveal 540ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.root-chamber-hero {
+  background-color: #0E261F;
+  border: 1px solid var(--color-gold-antique);
+  border-radius: 12px;
+  padding: 1.15rem 1.35rem;
+  box-shadow: 0 18px 44px rgba(9, 25, 20, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.root-chamber-hero__top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-return-tree-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background-color: rgba(247, 241, 229, 0.1);
+  border: 1px solid var(--color-gold-antique);
+  color: var(--color-ivory-warm);
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition: background-color var(--transition-calm);
+}
+
+.btn-return-tree-top:hover {
+  background-color: var(--color-gold-antique);
+  color: var(--color-ink-deep);
+}
+
+.root-chamber-hero__crumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.86rem;
+  color: var(--color-parchment-aged);
+}
+
+.root-chamber-svg-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.root-chamber-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 270px;
+}
+
+/* حركة ظهور حروف الجذر الثلاثة بالتتابع */
+.root-letter-medallion--1 {
+  animation: medallionSettle 460ms cubic-bezier(0.22, 1, 0.36, 1) 60ms both;
+}
+.root-letter-medallion--2 {
+  animation: medallionSettle 460ms cubic-bezier(0.22, 1, 0.36, 1) 170ms both;
+}
+.root-letter-medallion--3 {
+  animation: medallionSettle 460ms cubic-bezier(0.22, 1, 0.36, 1) 280ms both;
+}
+
+/* اللوحة المتحفية التعليمية ذات الأقسام الستة */
+.exhibition-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.exhibition-panel__top-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.panel-card {
+  background-color: var(--color-ivory-warm);
+  color: var(--color-ink-deep);
+  border: 1px solid var(--color-gold-antique);
+  border-radius: 10px;
+  padding: 1.85rem 2rem;
+  box-shadow: 0 14px 36px rgba(9, 25, 20, 0.32);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.panel-card__header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(41, 40, 32, 0.12);
+  padding-bottom: 0.85rem;
+}
+
+.panel-card__section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.panel-card__section-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 6px;
+  background-color: var(--color-forest-deep);
+  color: var(--color-gold-antique);
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+
+.panel-card__section-title-inline {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color-forest-deep);
+}
+
+.panel-card__subtitle-pill {
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background-color: var(--color-parchment-aged);
+  color: var(--color-ink-deep);
+}
+
+/* القسم ١: الكلمة المكتشفة */
+.discovered-word-showcase {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.9rem 1.25rem;
+  background-color: rgba(233, 217, 184, 0.45);
+  border-right: 4px solid var(--color-forest-deep);
+  border-radius: 6px;
+}
+
+.discovered-word-showcase__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 4.2vw, 3.6rem);
+  font-weight: 700;
+  color: var(--color-forest-deep);
+  line-height: 1.15;
+}
+
+.discovered-word-showcase__badge {
+  font-size: 0.86rem;
+  font-weight: 700;
+  padding: 0.3rem 0.85rem;
+  border-radius: 6px;
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+}
+
+.word-morph-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.word-morph-meta__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.word-morph-meta__item dt {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+}
+
+.word-morph-meta__item dd {
+  font-family: var(--font-editorial);
+  font-size: 1.04rem;
+  color: var(--color-ink-deep);
+}
+
+/* القسم ٢: الجذر اللغوي */
+.root-letters-box {
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+  border: 1px solid var(--color-gold-antique);
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.root-letters-box__visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
+  font-weight: 700;
+}
+
+.root-radical-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.1rem;
+  height: 3.1rem;
+  padding: 0 0.5rem;
+  border-radius: 8px;
+  background-color: rgba(247, 241, 229, 0.1);
+  border: 1px solid var(--color-gold-antique);
+  color: var(--color-ivory-warm);
+}
+
+.root-radical-sep {
+  color: var(--color-gold-antique);
+  font-weight: 400;
+}
+
+.root-letters-box__actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(185, 154, 91, 0.25);
+  padding-top: 0.7rem;
+  font-size: 0.88rem;
+}
+
+.root-continuous-text {
+  color: var(--color-parchment-aged);
+}
+
+.btn-copy-root {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  background-color: var(--color-gold-antique);
+  color: var(--color-ink-deep);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.btn-copy-root:hover {
+  background-color: var(--color-ivory-warm);
+}
+
+.root-core-meaning {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.root-core-meaning__label {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+}
+
+.root-core-meaning__text {
+  font-family: var(--font-editorial);
+  font-size: 1.05rem;
+  color: var(--color-ink-deep);
+}
+
+/* القسم ٣: كيف تغيرت الكلمة؟ */
+.transformation-narrative {
+  font-family: var(--font-editorial);
+  font-size: 1.14rem;
+  line-height: 1.95;
+  color: var(--color-ink-deep);
+}
+
+.transformation-pipeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.9rem;
+}
+
+.pipeline-step {
+  background-color: rgba(233, 217, 184, 0.45);
+  border: 1px solid rgba(185, 154, 91, 0.48);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.pipeline-step--final {
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+  border-color: var(--color-gold-antique);
+}
+
+.pipeline-step__stage {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+}
+
+.pipeline-step--final .pipeline-step__stage {
+  color: var(--color-gold-antique);
+}
+
+.pipeline-step__form {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  color: var(--color-forest-deep);
+}
+
+.pipeline-step--final .pipeline-step__form {
+  color: var(--color-ivory-warm);
+}
+
+.pipeline-step__desc {
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--color-ink-muted);
+}
+
+.pipeline-step--final .pipeline-step__desc {
+  color: var(--color-parchment-aged);
+}
+
+/* تشريح حروف الكلمة */
+.letter-anatomy {
+  margin-top: 0.35rem;
+  padding-top: 1.1rem;
+  border-top: 1px dashed rgba(41, 40, 32, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.letter-anatomy__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.letter-anatomy__title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--color-forest-deep);
+}
+
+.letter-anatomy__legend {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 500;
+}
+
+.legend-item i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.legend-item--root i {
+  background-color: var(--color-forest-deep);
+}
+.legend-item--transformed i {
+  background-color: var(--color-gold-antique);
+}
+.legend-item--affix i {
+  background-color: var(--color-botanical-muted);
+}
+
+.letter-anatomy__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+  gap: 0.75rem;
+}
+
+.anatomy-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(41, 40, 32, 0.14);
+}
+
+.anatomy-card--root {
+  border-right: 4px solid var(--color-forest-deep);
+}
+.anatomy-card--transformed {
+  border-right: 4px solid var(--color-gold-antique);
+  background-color: rgba(233, 217, 184, 0.32);
+}
+.anatomy-card--affix {
+  border-right: 4px solid var(--color-botanical-muted);
+}
+
+.anatomy-card__char {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  font-weight: 700;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-parchment-aged);
+  color: var(--color-forest-deep);
+  flex-shrink: 0;
+}
+
+.anatomy-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.anatomy-card__label {
+  font-size: 0.85rem;
+  color: var(--color-forest-deep);
+}
+
+.anatomy-card__note {
+  font-size: 0.79rem;
+  color: var(--color-ink-muted);
+  line-height: 1.45;
+}
+
+/* القسم ٤: كلمات من الجذر نفسه */
+.related-words-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.15rem;
+}
+
+.related-word-card {
+  background-color: rgba(233, 217, 184, 0.42);
+  border: 1px solid rgba(185, 154, 91, 0.48);
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.85rem;
+}
+
+.related-word-card__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgba(41, 40, 32, 0.12);
+  padding-bottom: 0.55rem;
+}
+
+.related-word-card__word {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--color-forest-deep);
+}
+
+.related-word-card__pattern {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  background-color: var(--color-ivory-warm);
+  color: var(--color-emerald-dark);
+  border: 1px solid rgba(185, 154, 91, 0.4);
+}
+
+.related-word-card__meaning {
+  font-family: var(--font-editorial);
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: var(--color-ink-deep);
+}
+
+.related-word-card__root-trace {
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  background-color: rgba(247, 241, 229, 0.75);
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  border-right: 3px solid var(--color-gold-antique);
+}
+
+.related-word-card__trace-label {
+  font-weight: 700;
+  color: var(--color-forest-deep);
+  margin-left: 0.3rem;
+}
+
+/* القسم ٥: المصدر اللغوي */
+.source-citation-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  background-color: rgba(233, 217, 184, 0.38);
+  border: 1px solid rgba(185, 154, 91, 0.5);
+  border-radius: 8px;
+  padding: 1.35rem 1.5rem;
+}
+
+.source-citation-block__quote {
+  font-family: var(--font-editorial);
+  font-size: 1.12rem;
+  line-height: 1.9;
+  color: var(--color-ink-deep);
+  border-right: 4px solid var(--color-forest-deep);
+  padding-right: 1rem;
+}
+
+.source-citation-block__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(41, 40, 32, 0.12);
+}
+
+.source-citation-block__bib {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.source-citation-block__primary {
+  font-size: 0.98rem;
+  color: var(--color-forest-deep);
+}
+
+.source-citation-block__secondary {
+  font-size: 0.85rem;
+  color: var(--color-ink-muted);
+}
+
+.btn-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: 6px;
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+  font-size: 0.92rem;
+  font-weight: 700;
+  border: 1px solid var(--color-gold-antique);
+  transition: background-color var(--transition-calm), transform var(--transition-calm);
+}
+
+.btn-source-link:hover {
+  background-color: var(--color-emerald-dark);
+  transform: translateY(-1px);
+}
+
+/* القسم ٦: التنقل والعودة إلى الشجرة */
+.panel-card--navigation {
+  background-color: var(--color-emerald-dark);
+  color: var(--color-ivory-warm);
+}
+
+.navigation-footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.navigation-footer__info {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.navigation-footer__title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--color-ivory-warm);
+}
+
+.navigation-footer__desc {
+  font-size: 0.92rem;
+  color: var(--color-parchment-aged);
+}
+
+.btn-primary-museum--return {
+  padding: 0.8rem 1.65rem;
+  font-size: 1rem;
+}
+
+.quick-roots-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 0.6rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(185, 154, 91, 0.28);
+}
+
+.quick-root-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.55rem 0.85rem;
+  border-radius: 6px;
+  background-color: rgba(23, 61, 50, 0.85);
+  border: 1px solid rgba(185, 154, 91, 0.32);
+  color: var(--color-ivory-warm);
+  transition: all var(--transition-calm);
+}
+
+.quick-root-pill:hover {
+  background-color: rgba(185, 154, 91, 0.22);
+  border-color: var(--color-gold-antique);
+}
+
+.quick-root-pill--current {
+  background-color: var(--color-ivory-warm);
+  color: var(--color-ink-deep);
+  border-color: var(--color-gold-antique);
+  font-weight: 700;
+}
+
+.quick-root-pill__word {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.quick-root-pill__root {
+  font-size: 0.78rem;
+  opacity: 0.85;
+}
+
+/* ==========================================================================
+   نافذة المعاجم والمراجع (References Modal)
+   ========================================================================== */
+.references-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background-color: rgba(9, 25, 20, 0.78);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  animation: museumFadeIn 250ms ease;
+}
+
+.references-modal {
+  background-color: var(--color-ivory-warm);
+  color: var(--color-ink-deep);
+  border: 2px solid var(--color-gold-antique);
+  border-radius: 12px;
+  max-width: 920px;
+  width: 100%;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 28px 65px rgba(9, 25, 20, 0.65);
+}
+
+.references-modal__header {
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+  padding: 1.25rem 1.75rem;
+  border-bottom: 1px solid var(--color-gold-antique);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.references-modal__kicker {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-gold-antique);
+}
+
+.references-modal__title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-ivory-warm);
+}
+
+.references-modal__close-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  background-color: rgba(247, 241, 229, 0.12);
+  border: 1px solid var(--color-gold-antique);
+  color: var(--color-ivory-warm);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.references-modal__close-btn:hover {
+  background-color: var(--color-gold-antique);
+  color: var(--color-ink-deep);
+}
+
+.references-modal__body {
+  padding: 1.75rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.85rem;
+}
+
+.ref-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.ref-section__title {
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  color: var(--color-forest-deep);
+  border-bottom: 1px solid rgba(41, 40, 32, 0.15);
+  padding-bottom: 0.45rem;
+}
+
+.glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.9rem;
+}
+
+.glossary-card {
+  background-color: rgba(233, 217, 184, 0.45);
+  border: 1px solid rgba(185, 154, 91, 0.45);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.glossary-card__term {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  color: var(--color-forest-deep);
+}
+
+.glossary-card__def {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--color-ink-deep);
+}
+
+.sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.source-item-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(41, 40, 32, 0.14);
+  border-right: 4px solid var(--color-forest-deep);
+  border-radius: 8px;
+  padding: 0.9rem 1.15rem;
+}
+
+.source-item-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+
+.source-item-card__title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--color-forest-deep);
+}
+
+.source-item-card__author {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+}
+
+.source-item-card__desc {
+  font-size: 0.9rem;
+  color: var(--color-ink-muted);
+}
+
+.words-index-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.words-index-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.65rem 1rem;
+  background-color: rgba(233, 217, 184, 0.35);
+  border: 1px solid rgba(185, 154, 91, 0.4);
+  border-radius: 6px;
+}
+
+.words-index-row__main {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.words-index-row__word {
+  font-family: var(--font-display);
+  font-size: 1.22rem;
+  color: var(--color-forest-deep);
+  min-width: 4.5rem;
+}
+
+.words-index-row__root {
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+}
+
+.words-index-row__badge {
+  font-size: 0.78rem;
+  background-color: var(--color-ivory-warm);
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  border: 1px solid rgba(41, 40, 32, 0.15);
+}
+
+.words-index-row__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.words-index-row__btn {
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  background-color: var(--color-forest-deep);
+  color: var(--color-ivory-warm);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.words-index-row__link {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-emerald-dark);
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   التذييل المتحفي (Footer)
+   ========================================================================== */
+.museum-footer {
+  border-top: 1px solid var(--color-gold-border);
+  background-color: rgba(14, 38, 31, 0.9);
+  padding: 1.35rem 1.5rem;
+  margin-top: auto;
+}
+
+.museum-footer__inner {
+  max-width: var(--max-width-museum);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.museum-footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: 0.88rem;
+  color: var(--color-parchment-aged);
+}
+
+.museum-footer__brand strong {
+  color: var(--color-gold-antique);
+  font-size: 0.96rem;
+}
+
+.museum-footer__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.museum-footer__link-btn {
+  font-size: 0.86rem;
+  color: var(--color-parchment-aged);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.museum-footer__link-btn:hover {
+  color: var(--color-gold-antique);
+}
+
+/* ==========================================================================
+   الحركات والتأثيرات الهادئة (Animations & Reduced Motion)
+   ========================================================================== */
+@keyframes museumFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rootSceneReveal {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes medallionSettle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   التجاوب مع الشاشات اللوحية والهواتف (Responsive Breakpoints)
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .intro-scene__container {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
+  .exhibition-panel__top-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .transformation-pipeline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .related-words-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-mobile-directory__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .glossary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .museum-header__inner {
+    padding: 0.75rem 1rem;
+  }
+
+  .museum-header__stages {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    overflow-x: auto;
+  }
+
+  .intro-scene {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .tree-scene,
+  .root-discovery-scene {
+    padding: 1.25rem 1rem 2.75rem;
+  }
+
+  .panel-card {
+    padding: 1.35rem 1.2rem;
+  }
+
+  .transformation-pipeline {
+    grid-template-columns: 1fr;
+  }
+
+  .source-citation-block__footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-source-link {
+    justify-content: center;
+  }
+
+  .navigation-footer__top {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-primary-museum--return {
+    justify-content: center;
+  }
+}
+
